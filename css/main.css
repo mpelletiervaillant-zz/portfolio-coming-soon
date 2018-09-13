@@ -1,0 +1,39 @@
+h1 {
+  font-family: Montserrat;
+}
+
+.bg-image {
+  background-image: url("../images/coming-soon-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.beachball {
+  width: 30px;
+  animation-name: beachball-loading;
+  animation-duration: 600ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin: 0 auto;
+}
+
+@keyframes beachball-loading {
+
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-container {
+  width: 75%;
+}
+
+p {
+  font-family: "Noto Serif KR";
+  color: #565759;
+  font-size: 16px;
+  line-height: 1.9;
+}
