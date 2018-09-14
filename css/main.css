@@ -6,7 +6,8 @@ h1 {
   background-image: url("../images/coming-soon-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  background-position: center;
+  height: 45vh;
 }
 
 .beachball {
@@ -19,11 +20,11 @@ h1 {
 }
 
 .text-container {
-  width: 75%;
   margin: 0 auto;
   animation-name: slideInFromBottom;
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
+  padding-top: 2em;
 }
 
 @keyframes beachball-loading {
@@ -59,9 +60,21 @@ p {
 
 .sm-icon {
   color: #BCBCBC;
-  transition: color .3s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 .sm-icon:hover {
   color: #32353A;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .bg-image {
+    height: 100vh;
+  }
+
+  .text-container {
+    width: 75%;
+  }
+
 }
