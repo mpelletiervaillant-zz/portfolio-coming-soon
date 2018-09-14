@@ -29,6 +29,7 @@ h1 {
 
 .text-container {
   width: 75%;
+  margin: 0 auto;
 }
 
 p {
@@ -36,4 +37,12 @@ p {
   color: #565759;
   font-size: 16px;
   line-height: 1.9;
+}
+
+.contact-line {
+  font-family: Montserrat;
+}
+
+.sm-icon {
+  
 }
