@@ -44,7 +44,7 @@ p {
 }
 
 .sm-icon {
-  color: var(--color-primary);
+  color: red;
   transition: color .3s ease-in-out;
 }
 
