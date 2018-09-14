@@ -44,5 +44,10 @@ p {
 }
 
 .sm-icon {
-  
+  color: var(--color-primary);
+  transition: color .3s ease-in-out;
+}
+
+.sm-icon:hover {
+  color: #d8d8d8;
 }
