@@ -18,6 +18,14 @@ h1 {
   margin: 0 auto;
 }
 
+.text-container {
+  width: 75%;
+  margin: 0 auto;
+  animation-name: slideInFromBottom;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+}
+
 @keyframes beachball-loading {
 
   from {
@@ -28,15 +36,14 @@ h1 {
 }
 
 @keyframes slideInFromBottom {
-
-  start {
-
-  }
-}
-
-.text-container {
-  width: 75%;
-  margin: 0 auto;
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 p {
