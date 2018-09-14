@@ -58,10 +58,10 @@ p {
 }
 
 .sm-icon {
-  color: red;
+  color: #BCBCBC;
   transition: color .3s ease-in-out;
 }
 
 .sm-icon:hover {
-  color: #d8d8d8;
+  color: #32353A;
 }
