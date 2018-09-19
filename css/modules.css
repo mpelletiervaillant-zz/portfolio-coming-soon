@@ -85,7 +85,7 @@ img {
 }
 
 svg {
-  fill: currentColor;
+  fill: black;
 }
 
 svg:not(:root) {
