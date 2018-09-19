@@ -7,7 +7,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 40vh;
 }
 
 .beachball {
@@ -24,7 +24,6 @@ h1 {
   animation-name: slideInFromBottom;
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
-  padding-top: 4em;
 }
 
 @keyframes beachball-loading {
@@ -34,13 +33,11 @@ h1 {
   } to {
     transform: rotate(360deg);
   }
-
 }
 
 @keyframes slideInFromBottom {
-
     0% {
-        transform: translateY(20%);
+        transform: translateY(10%);
         opacity: 0;
     }
     100% {
@@ -77,15 +74,13 @@ p {
 
   .text-container {
     width: 100%;
-    padding-top: 0;
   }
 
 }
 
-@media only screen and (min-width:60em) {
+@media only screen and (min-width: 66em) {
 
   .text-container {
-    width: 85%;
+    width: 100%;
   }
-
 }
