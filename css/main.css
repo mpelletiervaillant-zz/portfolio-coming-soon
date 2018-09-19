@@ -7,7 +7,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 45vh;
+  height: 50vh;
 }
 
 .beachball {
@@ -24,7 +24,7 @@ h1 {
   animation-name: slideInFromBottom;
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
-  padding-top: 2em;
+  padding-top: 4em;
 }
 
 @keyframes beachball-loading {
@@ -75,6 +75,15 @@ p {
 
   .text-container {
     width: 100%;
+    padding-top: 0;
+  }
+
+}
+
+@media only screen and (min-width:60em) {
+
+  .text-container {
+    width: 85%;
   }
 
 }
